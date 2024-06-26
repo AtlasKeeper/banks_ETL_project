@@ -29,21 +29,3 @@
     <li><strong>NumPy:</strong> Utilized for numerical operations and data transformations.</li>
 </ul>
 
-<h2>How to Use</h2>
-
-<p>To run this project, follow the steps below:</p>
-<ol>
-    <li><strong>Clone the Repository:</strong></li>
-    <pre><code>git clone https://github.com/your_username/repository_name.git</code></pre>
-
-    <li><strong>Navigate to the Project Directory:</strong></li>
-    <pre><code>cd repository_name</code></pre>
-
-    <li><strong>Install Dependencies:</strong></li>
-    <p>Make sure you have Python and pip installed, then run:</p>
-    <pre><code>pip install -r requirements.txt</code></pre>
-
-    <li><strong>Run the Project:</strong></li>
-    <p>Execute the main script to start the ETL process:</p>
-    <pre><code>python banks_project.py</code></pre>
-</ol>
