@@ -1,0 +1,65 @@
+2024-06-26 14:01:56 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:18:27 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:18:27 : Initiating data extraction process.
+2024-06-26 14:19:12 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:19:12 : Initiating data extraction process.
+2024-06-26 14:20:29 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:20:29 : Initiating data extraction process.
+2024-06-26 14:20:30 : Data extraction complete. Initiating Transformation process.
+2024-06-26 14:21:49 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:21:49 : Initiating data extraction process.
+2024-06-26 14:21:50 : Data extraction complete. Initiating Transformation process.
+2024-06-26 14:38:22 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:38:22 : Initiating data extraction process.
+2024-06-26 14:38:24 : Data extraction complete. Initiating Transformation process.
+2024-06-26 14:38:24 : Initiating data transformation process.
+2024-06-26 14:39:30 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:39:30 : Initiating data extraction process.
+2024-06-26 14:39:31 : Data extraction complete. Initiating Transformation process.
+2024-06-26 14:39:31 : Initiating data transformation process.
+2024-06-26 14:40:00 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:40:00 : Initiating data extraction process.
+2024-06-26 14:40:01 : Data extraction complete. Initiating Transformation process.
+2024-06-26 14:40:01 : Initiating data transformation process.
+2024-06-26 14:41:44 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:41:44 : Initiating data extraction process.
+2024-06-26 14:41:45 : Data extraction complete. Initiating Transformation process.
+2024-06-26 14:41:45 : Initiating data transformation process.
+2024-06-26 14:41:57 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:41:57 : Initiating data extraction process.
+2024-06-26 14:41:59 : Data extraction complete. Initiating Transformation process.
+2024-06-26 14:41:59 : Initiating data transformation process.
+2024-06-26 14:44:34 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:44:34 : Initiating data extraction process.
+2024-06-26 14:44:36 : Data extraction complete. Initiating Transformation process.
+2024-06-26 14:44:36 : Initiating data transformation process.
+2024-06-26 14:44:37 : Data transformation complete. Initiating Loading process.
+2024-06-26 14:54:33 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:54:33 : Initiating data extraction process.
+2024-06-26 14:54:35 : Data extraction complete. Initiating Transformation process.
+2024-06-26 14:54:35 : Initiating data transformation process.
+2024-06-26 14:54:36 : Data transformation complete. Initiating Loading process.
+2024-06-26 14:54:36 : Initiating CSV loading process.
+2024-06-26 14:54:36 : Data saved to CSV file: ./Largest_banks_data.csv
+2024-06-26 14:57:53 : Preliminaries complete. Initiating ETL process
+2024-06-26 14:57:53 : Initiating data extraction process.
+2024-06-26 14:57:54 : Data extraction complete. Initiating Transformation process.
+2024-06-26 14:57:54 : Initiating data transformation process.
+2024-06-26 14:57:55 : Data transformation complete. Initiating Loading process.
+2024-06-26 14:57:55 : Initiating CSV loading process.
+2024-06-26 14:57:55 : Data saved to CSV file: ./Largest_banks_data.csv
+2024-06-26 14:57:55 : Initiating database loading process.
+2024-06-26 14:57:55 : Data loaded to SQLite database. Database file: Banks.db, Table name: Largest_banks
+2024-06-26 15:01:22 : Preliminaries complete. Initiating ETL process
+2024-06-26 15:01:22 : Initiating data extraction process.
+2024-06-26 15:01:24 : Data extraction complete. Initiating Transformation process.
+2024-06-26 15:01:24 : Initiating data transformation process.
+2024-06-26 15:01:25 : Data transformation complete. Initiating Loading process.
+2024-06-26 15:01:25 : Initiating CSV loading process.
+2024-06-26 15:01:25 : Data saved to CSV file: ./Largest_banks_data.csv
+2024-06-26 15:01:25 : Initiating database loading process.
+2024-06-26 15:01:25 : Data loaded to SQLite database. Database file: Banks.db, Table name: Largest_banks
+2024-06-26 15:01:25 : Executing SQL query: SELECT * FROM Largest_banks
+2024-06-26 15:01:25 : Executing SQL query: SELECT AVG(MC_GBP_Billion) FROM Largest_banks
+2024-06-26 15:01:25 : Executing SQL query: SELECT Name FROM Largest_banks LIMIT 5
+2024-06-26 15:01:25 : All queries executed successfully.
